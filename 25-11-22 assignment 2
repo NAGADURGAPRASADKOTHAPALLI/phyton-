@@ -1,0 +1,7 @@
+list=[10,12,34,6,45,7]
+minimum=list[0]
+for i in list:
+  if minimum>i:
+   minimum=i
+
+print('the minimum number is:',minimum)
