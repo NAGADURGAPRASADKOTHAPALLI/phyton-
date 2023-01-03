@@ -1,0 +1,13 @@
+r=int(input('enter no. of rows:'))
+c=int(input('enter no. of columns:'))
+m=[]
+for i in range(r):
+    l=[]
+    for i in range(c):
+        x=int(input('enter the number:'))
+        l.append(x)
+    m.append(l)
+for i in range(r):
+    for j in range(c):
+        if i==j:
+            print(m[i][j])
