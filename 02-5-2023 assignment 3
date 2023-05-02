@@ -1,0 +1,5 @@
+l=list(map(int,input().split()))
+n=max(l)
+o=min(l)
+print(n)
+print(o)
