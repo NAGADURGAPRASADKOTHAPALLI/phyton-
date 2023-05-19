@@ -1,0 +1,11 @@
+l=list(map(int,input().split()))
+n=len(l)
+k=int(input())
+c=0
+for i in range(0,n):
+    sum=l[i]
+    for j in range(0,n):
+        if sum>k:
+            sum=sum+l[j]
+            c=c+1
+print(c)
