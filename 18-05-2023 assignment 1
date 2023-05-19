@@ -1,0 +1,9 @@
+l=list(map(int,input().split()))
+n=len(l)
+maxsum=l[0]
+cursum=0
+for i in range(0,n):
+    cursum=cursum+l[i]
+    if cursum>maxsum:
+        maxsum=cursum
+print(maxsum)
