@@ -1,0 +1,12 @@
+l=list(map(int,input().split()))
+n=len(l)
+k=int(input())
+c=0
+for i in range(0,n):
+    p=l[i]
+    for j in range(i,n):
+        if p>=k:
+            c=c+1
+        else:
+            p=p*l[j]
+print(c)
